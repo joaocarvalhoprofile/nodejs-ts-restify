@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-ts-restify",
+  "version": "1.0.0",
+  "description": "Setup NodeJS using TS with restify",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaokvalho/nodejs-ts-restify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaokvalho/nodejs-ts-restify/issues"
+  },
+  "homepage": "https://github.com/joaokvalho/nodejs-ts-restify#readme",
+  "dependencies": {
+    "restify": "^8.4.0"
+  },
+  "devDependencies": {
+    "@types/restify": "^7.2.12",
+    "nodemon": "^1.19.1"
+  }
+}
