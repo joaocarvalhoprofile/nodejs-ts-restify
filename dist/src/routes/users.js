@@ -8,15 +8,16 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const router_1 = require("../common/router");
-const user_model_1 = require("./user.model");
-class UsersRouter extends router_1.Router {
+const route_1 = require("../common/route");
+const users_1 = require("../models/users");
+class UsersRouter extends route_1.Router {
     applyRoutes(application) {
         application.get('/users', (request, response, next) => __awaiter(this, void 0, void 0, function* () {
-            const users = yield user_model_1.UserModel.findAll();
+            const users = yield users_1.UserModel.findAll();
             response.json(users);
             return next();
         }));
     }
 }
-exports.usersRouter = new UsersRouter();
+exports.default = new UsersRouter();
+//# sourceMappingURL=users.js.map

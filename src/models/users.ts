@@ -9,5 +9,5 @@ export class UserModel {
     static findAll(): Promise<any[]> {
         return Promise.resolve(users)
     }
-    
+
 }

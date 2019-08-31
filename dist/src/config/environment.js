@@ -5,7 +5,7 @@ exports.environment = {
     server: {
         port: process.env.SERVER_PORT || 3333
     },
-    smtpMail: {
+    smtpServer: {
         host: '',
         port: '',
         user: '',
@@ -13,3 +13,4 @@ exports.environment = {
         ssl: true
     }
 };
+//# sourceMappingURL=environment.js.map

@@ -5,7 +5,7 @@ export const environment = {
     server: {
         port: process.env.SERVER_PORT || 3333
     },
-    smtpMail: {
+    smtpServer: {
         host: '',
         port: '',
         user: '',
